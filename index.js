@@ -1,7 +1,7 @@
 const express = require('express')
 const os = require("os")
 const app = express()
-const port = 3000
+const port = 80
 
 const pokeneas = [
   {"id":"1","nombre":"checho","altura":"1.69","habilidad":"saludar a las p","imagen":"https://storage.googleapis.com/pokeneas_images/checho.jpg","frase_filosofica":"eso gonor*"},
