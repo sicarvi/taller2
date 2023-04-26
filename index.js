@@ -4,8 +4,8 @@ const app = express()
 const port = 3000
 
 const pokeneas = [
-  {"id":"1","nombre":"checho","altura":"1.69","habilidad":"saludar a las p","imagen":"banano","frase_filosofica":"eso gonor*"},
-  {"id":"2","nombre":"ñatico","altura":"1.72","habilidad":"rescatar a puntilla","imagen":"banano","frase_filosofica":"gracias envigao"},
+  {"id":"1","nombre":"checho","altura":"1.69","habilidad":"saludar a las p","imagen":"https://storage.googleapis.com/pokeneas_images/checho.jpg","frase_filosofica":"eso gonor*"},
+  {"id":"2","nombre":"ñatico","altura":"1.72","habilidad":"rescatar a puntilla","imagen":"https://storage.googleapis.com/pokeneas_images/elnato.PNG","frase_filosofica":"gracias envigao"},
 ]
 
 app.get('/descripcion', (req, res) => {
